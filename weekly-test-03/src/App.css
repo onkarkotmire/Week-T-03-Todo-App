@@ -1,0 +1,50 @@
+.App {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-div{
+  width: 800px; 
+}
+
+.item-box{
+  border: 2px solid black;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  height: 30px;
+  padding: 8px;
+  font-size: 18px;
+}
+
+.edit-box{
+  width: 743px;
+  height: 30px;
+  border: 2px solid black;
+  padding: 8px;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+.input-box{
+  width: 80%;
+  height: 100%;
+  border: none;
+  outline: none;
+  font-size: 18px;
+}
+
+.user-input{
+  width: 680px;
+  height: 30px;
+  font-size: 18px;
+  margin-left: 16px;
+  margin-top: 10px;
+}
+.user-input-button{
+  padding: 8px;
+  width: 50px;
+}
